@@ -2,15 +2,23 @@ body {
   text-align: center;
 }
 
-.showing {
+#chimp-showing {
   display: none;
 }
 
-.clickable {
+#hippo-showing {
+  display: none;
+}
+
+#possom-showing {
+  display: none;
+}
+
+.clickable , .clickable2 , .clickable3 {
   cursor: pointer;
   color:teal;
 }
 
-.clickable:hover {
+.clickable:hover, .clickable2:hover, .clickable3:hover  {
   text-decoration: underline;
 }
